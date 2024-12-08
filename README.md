@@ -14,10 +14,12 @@ Have the dependencies (listed below) installed. This can be done like this if yo
 pip install requests
 pip install beautifulsoup4
 pip install pandas
-```
-If you're on a macOS then do `pip3` instead of `pip` like `pip3 install requests`.
 
-Then open `ao3wrapped.py` and the first two lines will have `username` and `password` variables. Enter your ao3 username and password. There are options to scrape your history instead of your bookmarks, as well as to change the year. Save your changes.
+pip install InquirerPy
+pip install tqdm
+```
+
+If you're on a macOS then do `pip3` instead of `pip` like `pip3 install requests`.
 
 Run the program like this:
 ```
@@ -33,3 +35,5 @@ This will also generate two files:
 * Requests
 * Beautiful Soup
 * pandas
+* InquirerPy
+* tqdm
